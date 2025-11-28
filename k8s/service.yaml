@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world
+  namespace: hello-world
+spec:
+  selector:
+    app: hello-world
+  ports:
+    - protocol: TCP
+      port: 8081       # porta "vista" pelo cluster
+      targetPort: 8081 # porta do container
+  type: ClusterIP      # importante: agora é interno, Envoy vai expor
