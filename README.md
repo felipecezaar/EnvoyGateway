@@ -126,9 +126,9 @@ hello world
 
 ---
 
-# Português (Brazil)
+## Português (Brazil)
 
-## Visão Geral
+### Visão Geral
 
 Este repositório contém um exemplo de como implantar uma aplicação **hello-world** atrás do **Envoy Gateway** utilizando o Kubernetes Gateway API. Ele demonstra como instalar o Envoy Gateway e expor a aplicação usando Gateway, HTTPRoute e demais recursos Kubernetes.
 
